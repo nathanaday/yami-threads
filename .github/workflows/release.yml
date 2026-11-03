@@ -1,5 +1,4 @@
-# This workflow runs once this folder is a repository of its own (see docs/releasing.md in the yami
-# repository). Releases manifest.json's version when main gets it: when no release has this version
+# Releases manifest.json's version when main gets it: when no release has this version
 # yet, it checks the plugin again, tags the commit X.Y.Z (no v), and publishes main.js,
 # manifest.json, and styles.css, which Obsidian's community plugins download.
 name: Release

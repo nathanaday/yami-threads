@@ -16,7 +16,7 @@
     "set-version": "node scripts/set-version.mjs"
   },
   "dependencies": {
-    "yami": "file:../../yami"
+    "yami": "https://github.com/nathanaday/yami/releases/download/yami-0.20.0/yami-0.20.0.tgz"
   },
   "devDependencies": {
     "@codemirror/state": "^6.7.6",

@@ -1,5 +1,3 @@
-# This workflow runs once this folder is a repository of its own (see docs/releasing.md in the yami
-# repository). Inside the yami repository, GitHub ignores it, and the root workflows check the plugin.
 # The checks of every change: on each push to main and on each pull request.
 name: CI
 
