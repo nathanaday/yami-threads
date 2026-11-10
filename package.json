@@ -1,6 +1,6 @@
 {
   "name": "yami-threads",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Validated work on your repositories from Obsidian: a thread is one note that carries an idea to a spec, a plan, the work, and a validation by a fresh agent.",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "set-version": "node scripts/set-version.mjs"
   },
   "dependencies": {
-    "yami": "https://github.com/nathanaday/yami/releases/download/yami-0.20.0/yami-0.20.0.tgz"
+    "yami": "https://github.com/nathanaday/yami/releases/download/yami-0.24.0/yami-0.24.0.tgz"
   },
   "devDependencies": {
     "@codemirror/state": "^6.7.6",

@@ -36,7 +36,7 @@ The agents get the threads tools (`threads_stub`, `threads_spec`, `threads_plan`
 ## What it adds to your vault
 
 - **Folders.** `threads/`, the threads and the sessions of your own flows. `internal/threads/` holds the module's document, its ledger with a board of the open threads, and its forms. `conversations/` holds the conversation note of each run.
-- **Files.** `Yami.base` and `internal/yami/skills/run/SKILL.md`, as every Yami plugin writes. No wiki files: the wiki module is [Yami Wiki](https://github.com/nathanaday/yami-wiki)'s.
+- **Files.** `internal/yami/skills/run/SKILL.md`, as every Yami plugin writes, and nothing at the vault's root. No wiki files: the wiki module is [Yami Wiki](https://github.com/nathanaday/yami-wiki)'s.
 - **Folder colors**, a **status bar item** that says which agents work.
 
 ## With Duet and Yami Wiki
