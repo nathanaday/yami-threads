@@ -1,0 +1,10 @@
+version: 1
+suites:
+  all:
+    command: cd yami-threads && npm ci && npm run build && npx vitest run test/unit --reporter=default --reporter=junit --outputFile=/hikari/private/reports/all.xml
+    description: Runs every test of the partition.
+tests:
+  yami-threads/test/unit/version.test.ts: []
+gaps:
+  open-threads-panel: [Only the Obsidian desktop tests, not run here, open the panel.]
+  carry-idea-through-thread: [No test here runs a thread.]

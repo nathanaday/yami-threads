@@ -75,7 +75,7 @@ The agents get the threads tools (`threads_stub`, `threads_spec`, `threads_plan`
 - `threads/`: the threads, and the sessions of your own flows.
 - `internal/threads/`: the module's document, its ledger with a **Board** of every thread and its phase, the reviewer and validator agents, the skills, and your forms.
 - `conversations/`: a conversation note for each conversation and run.
-- `Yami.base` and `internal/yami/skills/run/SKILL.md`, which every Yami plugin writes.
+- `internal/yami/skills/run/SKILL.md`, which every Yami plugin writes. Nothing goes at the vault's root.
 - Colors for the module's folders in the file explorer, and a status bar item that says which agents are working.
 
 Yami Threads writes no wiki files and adds no wiki commands: the wiki belongs to [Yami Wiki](https://github.com/nathanaday/yami-wiki).

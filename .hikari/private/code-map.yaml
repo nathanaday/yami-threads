@@ -1,0 +1,21 @@
+version: 1
+parts:
+  - path: yami-threads/scripts/set-version.mjs
+    description: Sets one version across manifest, package, lock, and versions.json.
+  - path: yami-threads/esbuild.config.mjs
+    description: Build.
+  - path: yami-threads/test/unit/
+    description: Unit tests.
+  - path: yami-threads/test/obsidian/
+    description: Obsidian desktop tests (not run here).
+  - path: yami-threads/test/fixtures/
+    description: Sample vault.
+features:
+  open-threads-panel:
+    code: [yami-threads/src/main.ts]
+    notes: Plugin.onload registers the view, ribbon icon, and open-panel command.
+  carry-idea-through-thread:
+    code: [yami-threads/src/main.ts]
+    notes: createYami enables the library threads module.
+  run-thread-agents:
+    code: [yami-threads/src/main.ts]
